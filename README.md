@@ -70,6 +70,10 @@ npm run storybook
 # To write interactive test install:
 npm i -D @storybook/addon-interactions @st
 orybook/jest @storybook/testing-library @storybook/test-runner
+
+# Mock Service Worker
+npm i msw msw-storybook-addon -D
+npx msw init public/
 ```
 
 <br>
